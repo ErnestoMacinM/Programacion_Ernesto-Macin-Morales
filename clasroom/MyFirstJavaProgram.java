@@ -1,8 +1,8 @@
 
 /*********************
 *Ernesto Macin Morales
-*MyFirstJava.java
-*
+*MyFirstJava..java
+*git es 
 *
 *This program prints a "hello world" message
 ***********************/
