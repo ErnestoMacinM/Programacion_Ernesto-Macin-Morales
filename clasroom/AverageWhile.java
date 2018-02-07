@@ -9,7 +9,8 @@ import javax.swing.JOptionPane;
 public class AverageWhile{
   public static void main(String[]args){
     int counter=1, totalStudents;
-    double score, totalScore, averageScore;
+    double score, averageScore;
+    double totalScore=0;
 
     totalStudents = Integer.parseInt(JOptionPane.showInputDialog("Enter number of students"));
 
