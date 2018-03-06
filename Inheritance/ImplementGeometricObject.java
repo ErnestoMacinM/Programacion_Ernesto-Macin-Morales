@@ -1,17 +1,18 @@
 import javax.swing.*;
-
 public class ImplementGeometricObject{
-  public static void main(String[]args){
-    Circle circlelito = new Circle(3.5, "BLUE", true);
+  public static void main(String[] args) {
+    GeometricObject circlelito=new Circle(3.5,"blue",true);
+/*
+    JOptionPane.showMessageDialog(null,"the area is "+circlelito.getArea());
+    JOptionPane.showMessageDialog(null,"the circle was created on "+circlelito.getDateCreate());
 
-    /*JOptionPane.showMessageDialog(null, "The area is "+circlelito.getArea());
-    JOptionPane.showMessageDialog(null, "The circle was created on "+circlelito.getDateCreated());
+    Rectangle rectanglelito = new Rectangle(10,20,"red",true);
+    JOptionPane.showMessageDialog(null, "the area is "+rectanglelito.getArea());
+    JOptionPane.showMessageDialog(null, "the perimeter is "+rectanglelito.getPerimeter());
+      JOptionPane.showMessageDialog(null,"the rectangle was created on "+circlelito.getDateCreate());
+*/
+//polimorfismo
+JOptionPane.showMessageDialog(null,circlelito.toString());
 
-    Rectangle2 rectanglelito = new Rectangle(10, 20, "Red", true);
-    JOptionPane.showMessageDialog(null, "The perimeter is "+ rectanglelito.getPerimeter());*/
-
-    //polimorfismo
-    JOptionPane.showMessageDialog(null, circlelito.toString());
   }
-
 }
