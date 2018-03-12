@@ -8,5 +8,5 @@ public salaried(String name, double salary){
   this.salary = salary;
 }
 public double getPay(){
-  return 0.0;//Hard codeo para pruebas de funcionamiento
+  return this.salary;//Hard codeo para pruebas de funcionamiento
 }
